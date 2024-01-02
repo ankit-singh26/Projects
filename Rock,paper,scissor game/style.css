@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(203, 123, 123);
+}
+.container{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.choice{
+    height: 120px;
+    width: 120px;
+    object-fit: contain;
+    border-radius: 100px;
+}
+img{
+   object-fit: cover;
+   height: 100px;
+    width: 100px; 
+   border-radius: 70px;
+}
+img:hover{
+    /* opacity: 0.5; */
+    border: 5px solid white;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.score{
+    margin: 10px;
+    font-size: 20px;
+}
+.num{
+    margin: 10px;
+    font-size: 40px;
+}
+#reset{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(226, 70, 70);
+    border-radius: 30px;
+}
